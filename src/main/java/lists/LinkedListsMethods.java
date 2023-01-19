@@ -86,7 +86,6 @@ public class LinkedListsMethods {
             if (head.nextNode == null) {
                 head = null;
             } else {
-    
                 Node pointer = head;
                 while (pointer.nextNode.nextNode != null) {
                     pointer = pointer.nextNode;
